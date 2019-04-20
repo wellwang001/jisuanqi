@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="index.css" media="screen and (min-width:769px )">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width:768px )" >
+    <script src="demo.js"></script>
+    <title>TTI工资计算器</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-top">
+
+        </div>
+    </div>
+    <div class="demo">
+        <div class="demo-content">
+                <div class="demo-tip">
+                    <ul>
+                        <li><img src="images/logo-milwaukee.png" alt=""></li>
+                        <li><h1> TTI工资计算器</h1></li>
+                    </ul>
+
+
+                </div>
+                <div class="demo-sum" id="inp-sum">
+                    <label for="">基本工资：<input type="text" id="base"></label>
+                    <label for="">平时加班：<input type="text" id="dailyWork"  ></label>
+                    <label for="">周末加班：<input type="text" id="weekWork"></label>
+                    <label for="">年资津贴：<input type="text" id="yearsGrade"></label>
+                    <label for="">外宿补贴：<input type="text" id="slpOut"></label>
+                    <label for=""> 全勤奖 &nbsp &nbsp：<input type="text" id="fullMonth" ></label>
+                    <label for="">个人社保：<input type="text" id="socialSecurity"></label>
+                    <label for="">公积金 &nbsp  &nbsp：<input type="text" id="SocialInsuranceFunds"></label>
+                </div>
+            <div class="subMIt">
+                <input type="button" value="计算/results" id="sumRes">
+            </div>
+                <div class="demo-show">
+                    <p id="demoShowTip">这里是您的工资信息!</p>
+                </div>
+        </div>
+       
+    </div>
+</body>
+</html>
